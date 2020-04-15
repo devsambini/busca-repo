@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca de Repositorios no Github</title>
+  <style>
+    body{
+      font-family: sans-serif;
+      color: #fff;
+      background-color: #383838;
+    }
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li{
+      clear: both;
+      margin-top: 20px;
+    }
+
+    img{
+      width: 80px;
+      float: left;
+      margin-right: 10px;
+    }
+
+    strong{
+      font-size: 20px;
+    }
+
+    p{
+      margin: 5px 0;
+    }
+
+    a{
+      color: #fff;
+    }
+
+  </style>
+<body>
+  <h1>Busca de repositórios no Github</h1>
+  <form id="repo-form">
+
+    <input type="text" name="repository" />
+    <button type="submit">Adicionar</button>
+
+  </form>
+
+  <ul id="repo-list"></ul>
+
+  <div>
+    <h1>Repositórios para teste da Aplicação</h1>
+    <p>diego3g/live-formularios-react</p>
+    <p>lucasmontano/emissary</p>
+    <p>marcosaureliodiasmoura/nubank</p>
+    <p>danileao/rocketmusic</p>
+  </div>
+
+  <script src="./bundle.js" defer></script>
+
+</body>
+</html>
